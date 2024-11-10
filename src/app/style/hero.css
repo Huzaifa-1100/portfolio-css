@@ -11,7 +11,7 @@
   padding-right: 1.25rem;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 
   @media (min-width: 768px) {
