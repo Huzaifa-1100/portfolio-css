@@ -1,0 +1,119 @@
+.hsection {
+  color: #4b5563;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.hmain-div {
+  display: flex;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.hsb-div {
+  display: flex;
+  margin-bottom: 4rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-right: 4rem;
+    margin-bottom: 0;
+    align-items: flex-start;
+    width: 50%;
+    text-align: left;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 6rem;
+    flex-grow: 1;
+  }
+}
+
+.hsb-div h1 {
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  color: #111827;
+
+  @media (min-width: 640px) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.htext-div {
+  background-color: #b91c1c;
+  width: 200px;
+  height: 2px;
+}
+
+.htext-div p {
+  margin-bottom: 2rem;
+  line-height: 1.625;
+  text-align: justify;
+}
+
+.hbutton-div {
+  display: flex;
+  justify-content: center;
+}
+
+.hbtn-cont {
+  display: inline-flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.25rem;
+  border-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+  background-color: #6b7280;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.hbtn-cont:hover {
+  background-color: #b91c1c;
+}
+
+.himage-div {
+  width: 83.333333%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 100%;
+    max-width: 32rem;
+  }
+}
+
+.himage {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1000px;
+  border-width: 2px;
+  border-color: #ef4444;
+  /* width: 25rem; */
+
+  @media (max-width: 768px){
+    margin-bottom: 0;
+    max-width: 100%;
+    border-radius: 10px;
+
+  }
+}

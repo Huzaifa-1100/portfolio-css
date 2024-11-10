@@ -1,0 +1,103 @@
+.amain-section {
+  color: "#4B5563";
+}
+
+.a-main-div {
+  display: flex;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.image-div-a {
+  margin-bottom: 2.5rem;
+  width: 83.333333%;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 100%;
+    max-width: 32rem;
+  }
+}
+
+.image-a {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  border: #b91c1c solid;
+  height: 100%;
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+
+.text-div-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-left: 4rem;
+    align-items: flex-start;
+    width: 50%;
+    text-align: left;
+  }
+  @media (min-width: 1024px) {
+    padding-left: 6rem;
+    flex-grow: 1;
+  }
+}
+
+.text-div-a h1 {
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  color: #111827;
+
+  @media (min-width: 640px) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.text-div-a p {
+  margin-bottom: 2rem;
+  line-height: 1.625;
+  text-align: justify;
+}
+
+.btn-div-a {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.25rem;
+  border-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+  background-color: #6b7280;
+
+}
+
+.btn:hover {
+  background-color: #b91c1c;
+}

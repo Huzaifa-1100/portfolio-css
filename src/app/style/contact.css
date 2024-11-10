@@ -1,0 +1,214 @@
+.section-c {
+  /* position: relative; */
+  color: #4b5563;
+}
+
+.main-div-c {
+  display: flex;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  flex-wrap: wrap;
+
+  @media (min-width: 640px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.google-div {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding: 2.5rem;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 0.5rem;
+  border-color: #b91c1c;
+  background-color: #d1d5db;
+
+  @media (min-width: 640px) {
+    margin-right: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 66.666667%;
+  }
+
+  :hover {
+    border-width: 4px;
+    background-color: #ffffff;
+  }
+}
+
+.google {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.text-c {
+  display: flex;
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  flex-wrap: wrap;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.address-div-c {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
+.address-div-c h2 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #111827;
+}
+.address-div-c p {
+  margin-top: 0.25rem;
+}
+
+.email-div-c {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
+
+  @media (min-width: 1024px) {
+    margin-top: 0;
+    width: 50%;
+  }
+}
+.email-div-c h2 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #111827;
+}
+
+.email-div-c p {
+  line-height: 1.625;
+  color: #ef4444;
+}
+
+.left-div-c {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+
+  @media (min-width: 768px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 33.333333%;
+  }
+}
+
+.left-div-c h2 {
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.left-div-c p {
+  margin-bottom: 1.25rem;
+  line-height: 1.625;
+  color: #4b5563;
+}
+
+.form-c {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.left-div-c label {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1.75rem;
+  color: #4b5563;
+}
+
+.left-div-c input {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  outline-style: none;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  line-height: 2rem;
+  color: #374151;
+  background-color: #ffffff;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.left-div-c textarea {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  outline-style: none;
+  width: 100%;
+  height: 8rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  line-height: 1.5rem;
+  color: #374151;
+  background-color: #ffffff;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  resize: none;
+}
+
+.left-div-c button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.25rem;
+  border-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+  background-color: #6b7280;
+
+}
+
+.left-div-c button:hover {
+  background-color: #b91c1c;
+}
